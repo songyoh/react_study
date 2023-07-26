@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### props is properties (2023.07.24)
+
+컴포넌트 속성을 설정할 때 사용하는 요소.
+
+### default props
+
+props가 전달되지 않았을때 넣어줄 디폴드값 설정
+```
+MyComponent.defaultProps = {
+    name: '뉴진스'
+}
+```
+
+### event handling (2023.07.25)
+
+웹 브라우저에서 DOM요소들과 상호 작용하는 것
