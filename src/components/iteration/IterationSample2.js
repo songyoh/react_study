@@ -14,7 +14,9 @@ const IterationSample2 = () => {
     const onDoubleClickComponent = (id) => {
         alert("해당요소를 삭제합니다");
         // 더블클릭한 번호가 아닌 자바스크립트 객체들만 리스트에 남긴채 저장
-        setNames(names.filter(name => name.id !== id));
+        // setNames(names.filter(name => name.id !== id));
+        setNames(prevState => prevState.filter(name => name.id !== id));
+        //  prevState직전상태에 필터를 걸어서 강제로 호출
     }
 
     const namesList = names.map(name => 

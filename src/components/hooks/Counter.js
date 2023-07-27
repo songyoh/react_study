@@ -5,7 +5,7 @@ const Counter = () => {
 
     return(
         <>
-            <p>
+            <p className="result">
                 현재 카운터 값은<b>{value}</b>입니다.
             </p>
             {/* setValue를 이용해 value값이 1이 더해지거나 빼지도록 하기 */}
